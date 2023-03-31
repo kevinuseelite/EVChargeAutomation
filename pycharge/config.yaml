@@ -1,0 +1,14 @@
+stations:
+  - id: 'station1'
+    endpoint: 'ws://localhost:9000/ocpp/CP_1'
+    charging_points:
+      - id: '1'
+        connector_type: 'Type 2'
+        max_power: 7.4
+        price_per_kwh: 0.20
+        dummy_values:
+          voltage: 230
+          current: 16
+          energy: 100
+          time_elapsed: 3600
+          time_remaining: 5400
