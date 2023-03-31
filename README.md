@@ -1,1 +1,2 @@
 # EVChargeAutomation
+OCPP (Open Charge Point Protocol) is a standard communication protocol for electric vehicle charging stations. I'm using OCPP to create a ChargePoint class that implements the protocol and communicates with the server. PyCharge is a Python library that provides a client for the OCPP protocol. I'm using it to simulate an electric vehicle charging session by sending and receiving messages to and from the ChargePoint class. The simulation will run for a specified number of time steps and use a queue to manage the incoming messages.
